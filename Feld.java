@@ -14,6 +14,9 @@ public class Feld {
 	public int getSpalte(){
 		return spalte;
 	}
+	public int getStatus(){
+		return status;
+	}
 	public boolean equals (Feld feld2){
 		if (feld2.zeile != zeile) {
 			return false;
